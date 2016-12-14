@@ -1,0 +1,1 @@
+module.exports = process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME'];

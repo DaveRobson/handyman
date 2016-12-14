@@ -1,0 +1,22 @@
+{
+  "name": "handyman",
+  "version": "0.0.1",
+  "description": "Plugin based cli tool for scripting",
+  "main": "index.js",
+  "bin": {
+    "hm": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Robson",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "mkdirp": "^0.5.1"
+  }
+}
